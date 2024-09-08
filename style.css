@@ -12,7 +12,7 @@ body {
 
 /* Container */
 div {
-    background-color: #e3c7c7;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@ h1 {
 #task-input {
     width: 70%;
     padding: 10px;
-    border: 1px solid #9b6a6a;
+    border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 10px;
 }
@@ -47,13 +47,15 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-
+#add-task:hover {
+    background-color: #218838;
+}
 
 /* Task list styles */
 ul {
     list-style: none;
     padding: 0;
-    /* margin-top: 20px; */
+    margin-top: 20px;
 }
 
 li {
@@ -82,8 +84,6 @@ li {
 
 /* Task input field focus effect */
 #task-input:focus {
-    border-color: #000000;
-    border-color: 1px solid black;
+    border-color: #28a745;
+    outline: none;
 }
-
-
